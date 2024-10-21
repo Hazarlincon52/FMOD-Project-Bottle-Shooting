@@ -1,0 +1,289 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4543337965837720767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Project/FMOD Test/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638599327092537470
+  FileSizes:
+  - Name: Desktop
+    Value: 1358
+  Exists: 1
+--- !u!114 &-3364380869993020286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Gun/Out_of_Bullet
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Gun/Out_of_Bullet
+  Guid:
+    Data1: 1552736454
+    Data2: 1189077552
+    Data3: 1537421991
+    Data4: 2032836985
+  Banks:
+  - {fileID: 7830176226622373422}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2239190809355510938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Gun/Reload
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Gun/Reload
+  Guid:
+    Data1: 450600128
+    Data2: 1337302687
+    Data3: 856078006
+    Data4: -614860045
+  Banks:
+  - {fileID: 7830176226622373422}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -4543337965837720767}
+  - {fileID: 7830176226622373422}
+  EditorEvents:
+  - {fileID: 7419361888389991729}
+  - {fileID: 3748738539352794101}
+  - {fileID: 2987683035039645359}
+  - {fileID: -2239190809355510938}
+  - {fileID: 8155399872727492332}
+  - {fileID: -3364380869993020286}
+  - {fileID: 5760850689146164193}
+  - {fileID: 4240513037187172469}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 7830176226622373422}
+  StringsBanks:
+  - {fileID: -4543337965837720767}
+  cacheTime: 638599327092537470
+  cacheVersion: 131619
+--- !u!114 &2987683035039645359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Bottle/Bottle_Break_Shoot
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Bottle/Bottle_Break_Shoot
+  Guid:
+    Data1: 1481632401
+    Data2: 1199792314
+    Data3: -332036934
+    Data4: 1869493959
+  Banks:
+  - {fileID: 7830176226622373422}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3748738539352794101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI Sound/Click_Button
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/UI Sound/Click_Button
+  Guid:
+    Data1: -767295924
+    Data2: 1186492262
+    Data3: 836687790
+    Data4: -1593396204
+  Banks:
+  - {fileID: 7830176226622373422}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4240513037187172469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Bottle/Bottle_Break_Drop
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Bottle/Bottle_Break_Drop
+  Guid:
+    Data1: -1962738187
+    Data2: 1186919771
+    Data3: 1179100289
+    Data4: 867975039
+  Banks:
+  - {fileID: 7830176226622373422}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5760850689146164193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/PowerUps/PowerUps
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/PowerUps/PowerUps
+  Guid:
+    Data1: 2097112784
+    Data2: 1296666710
+    Data3: -1388965234
+    Data4: -1962491163
+  Banks:
+  - {fileID: 7830176226622373422}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7419361888389991729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BGM/Music
+  m_EditorClassIdentifier: 
+  Path: event:/BGM/Music
+  Guid:
+    Data1: 1461550395
+    Data2: 1243994464
+    Data3: -895206506
+    Data4: -1565503891
+  Banks:
+  - {fileID: 7830176226622373422}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 67343
+--- !u!114 &7830176226622373422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Project/FMOD Test/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638599327092487613
+  FileSizes:
+  - Name: Desktop
+    Value: 957760
+  Exists: 1
+--- !u!114 &8155399872727492332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Gun/Shoot
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Gun/Shoot
+  Guid:
+    Data1: -1561477693
+    Data2: 1196599300
+    Data3: 1041881486
+    Data4: -1441429756
+  Banks:
+  - {fileID: 7830176226622373422}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
